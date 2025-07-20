@@ -19,15 +19,36 @@ const Header = () => {
           {/* Navigation - Better spacing and responsive */}
           <nav className="hidden xl:flex items-center justify-center flex-1">
             <div className="flex items-center space-x-5">
-              {navItems.map((item) => (
-                <a
-                  key={item}
-                  href="#"
-                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap px-1"
-                >
-                  {item}
-                </a>
-              ))}
+              {navItems.map((item) => {
+                const sectionMap: { [key: string]: string } = {
+                  "About Us": "success-stories",
+                  "Reviews": "reviews", 
+                  "Our Students": "our-students",
+                  "Results": "success-stories",
+                  "How It Works": "process-steps",
+                  "What We Offer": "what-included",
+                  "Our Mentor": "our-mentor",
+                  "Podcast": "podcast",
+                  "FAQs": "faqs"
+                };
+                
+                return (
+                  <a
+                    key={item}
+                    href={`#${sectionMap[item] || ''}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const element = document.getElementById(sectionMap[item] || '');
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap px-1 cursor-pointer"
+                  >
+                    {item}
+                  </a>
+                );
+              })}
             </div>
           </nav>
 

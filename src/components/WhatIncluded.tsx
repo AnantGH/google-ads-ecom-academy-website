@@ -30,7 +30,7 @@ const WhatIncluded = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="what-included" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
