@@ -27,21 +27,11 @@ const HeroSection = () => {
               <span className="text-accent-blue text-sm font-medium">💰 Proven System</span>
             </div>
 
-            {/* Main Headline - Improved Typography */}
+            {/* Main Headline - Original Style */}
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-foreground">Make </span>
-                <span className="text-transparent bg-clip-text bg-gradient-accent">
-                  $10,000/Month
-                </span>
+              <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-foreground">
+                Make <span className="text-transparent bg-clip-text bg-gradient-accent">$10,000/Month</span> in 90 Days (or Less) with Google Ads Dropshipping - Even if you have No Experience
               </h1>
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                in 90 Days or Less
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-lg">
-                with Google Ads Dropshipping - Even if you have{" "}
-                <span className="text-foreground font-semibold">No Experience</span>
-              </p>
             </div>
 
             {/* Benefits List */}
