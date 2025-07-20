@@ -53,18 +53,14 @@ const HeroSection = () => {
           {/* Right Content - Video */}
           <div className="relative">
             <div className="aspect-video rounded-2xl overflow-hidden shadow-card bg-card border border-border">
-              <div className="w-full h-full bg-gradient-to-br from-accent-blue/20 to-accent-purple/20 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="w-20 h-20 bg-accent-blue/20 rounded-full flex items-center justify-center mx-auto">
-                    <div className="w-8 h-8 bg-accent-blue rounded-full flex items-center justify-center">
-                      <div className="w-0 h-0 border-l-[6px] border-l-primary-foreground border-y-[4px] border-y-transparent ml-1" />
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground">
-                    Make $10,000/Month in 90 Days or Less
-                  </p>
-                </div>
-              </div>
+              <iframe
+                src="https://www.youtube.com/embed/Y5ukDK3UnEQ"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              />
             </div>
             
             {/* Floating Stats */}
