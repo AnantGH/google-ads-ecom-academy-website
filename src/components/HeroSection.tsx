@@ -22,11 +22,6 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
-            {/* Badge */}
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent-blue/20 border border-accent-blue/30">
-              <span className="text-accent-blue text-sm font-medium">💰 Proven System</span>
-            </div>
-
             {/* Main Headline - Original Style */}
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-foreground">
