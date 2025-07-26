@@ -9,11 +9,12 @@ const OurMentor = () => {
           {/* Left Content - Mentor Image & Analytics */}
           <div className="relative">
             <div className="relative">
-              <img
-                src="/lovable-uploads/766739e6-4a01-44ce-9d2c-835f3cf53303.png"
-                alt="Theo Clarke - Mentor"
-                className="w-full max-w-md mx-auto rounded-lg"
-              />
+              <div className="w-full max-w-md mx-auto h-96 bg-gradient-to-br from-accent-blue/20 to-primary/30 rounded-lg flex items-center justify-center border border-border">
+                <div className="text-center text-primary-foreground/60">
+                  <div className="text-6xl mb-2">👨‍💼</div>
+                  <div className="text-lg font-semibold">Theo Clarke</div>
+                </div>
+              </div>
               
               {/* Analytics Chart Overlay */}
               <div className="absolute bottom-4 left-4 bg-background rounded-lg p-4 shadow-lg border">
