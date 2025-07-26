@@ -5,56 +5,8 @@ const OurMentor = () => {
   return (
     <section id="our-mentor" className="py-20 bg-gradient-to-br from-primary to-primary-dark">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content - Mentor Image & Analytics */}
-          <div className="relative">
-            <div className="relative">
-              <div className="w-full max-w-md mx-auto h-96 bg-gradient-to-br from-accent-blue/20 to-primary/30 rounded-lg flex items-center justify-center border border-border">
-                <div className="text-center text-primary-foreground/60">
-                  <div className="text-6xl mb-2">👨‍💼</div>
-                  <div className="text-lg font-semibold">Theo Clarke</div>
-                </div>
-              </div>
-              
-              {/* Analytics Chart Overlay */}
-              <div className="absolute bottom-4 left-4 bg-background rounded-lg p-4 shadow-lg border">
-                <div className="flex space-x-4 mb-2">
-                  <div className="text-center">
-                    <div className="text-sm font-bold text-accent-blue">7.1M</div>
-                    <div className="text-xs text-muted-foreground">Reach</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-sm font-bold text-destructive">£3.48M</div>
-                    <div className="text-xs text-muted-foreground">Revenue</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-sm font-bold text-yellow-500">20.0M</div>
-                    <div className="text-xs text-muted-foreground">Impressions</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-sm font-bold text-green-500">596.36%</div>
-                    <div className="text-xs text-muted-foreground">ROAS</div>
-                  </div>
-                </div>
-                <div className="h-16 w-full bg-gradient-to-r from-accent-blue/20 to-green-500/20 rounded"></div>
-              </div>
-            </div>
-            
-            {/* Before/After Images */}
-            <div className="flex items-center justify-center mt-8 space-x-4">
-              <div className="text-center">
-                <div className="text-sm font-bold text-primary-foreground mb-2">2023:</div>
-                <div className="w-24 h-16 bg-muted rounded-lg border-2 border-border"></div>
-              </div>
-              <ArrowRight className="text-primary-foreground w-8 h-8" />
-              <div className="text-center">
-                <div className="text-sm font-bold text-primary-foreground mb-2">2024:</div>
-                <div className="w-24 h-16 bg-accent-blue/20 rounded-lg border-2 border-accent-blue"></div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Content - Mentor Info */}
+        <div className="max-w-4xl mx-auto">
+          {/* Mentor Info */}
           <div className="space-y-6">
             <div>
               <p className="text-primary-foreground/80 text-sm mb-2">Meet your mentor:</p>
