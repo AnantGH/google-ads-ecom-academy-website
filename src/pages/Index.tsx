@@ -5,6 +5,7 @@ import Reviews from "@/components/Reviews";
 import OurStudents from "@/components/OurStudents";
 import ProcessSteps from "@/components/ProcessSteps";
 import WhatIncluded from "@/components/WhatIncluded";
+import WithVsWithout from "@/components/WithVsWithout";
 import OurMentor from "@/components/OurMentor";
 import Podcast from "@/components/Podcast";
 import FAQs from "@/components/FAQs";
@@ -19,6 +20,7 @@ const Index = () => {
       <OurStudents />
       <ProcessSteps />
       <WhatIncluded />
+      <WithVsWithout />
       <OurMentor />
       <Podcast />
       <FAQs />
